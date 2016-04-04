@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item android:id="@+id/everyday" android:title="@string/everyday" android:numericShortcut="0"></item>
+        <item android:title="@string/weekday" android:id="@+id/weekday" android:numericShortcut="1"></item>
+        <item android:numericShortcut="2" android:id="@+id/weekend" android:title="@string/weekend"></item>
+    </group>
+    <group android:id="@+id/group2">
+        <item android:title="@string/monday" android:id="@+id/monday"></item>
+        <item android:title="@string/tuesday" android:id="@+id/tuesday"></item>
+        <item android:title="@string/wednesday" android:id="@+id/wednesday"></item>
+        <item android:title="@string/thursday" android:id="@+id/thursday"></item>
+        <item android:title="@string/friday" android:id="@+id/friday"></item>
+        <item android:title="@string/saturday" android:id="@+id/saturday"></item>
+        <item android:title="@string/sunday" android:id="@+id/sunday"></item>
+    </group>
+</menu>

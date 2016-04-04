@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enabled">Enabled</string>
+    <string name="app_name">Silent Scheduler</string>
+    <string name="add">追加</string>
+    <string name="delete">削除</string>
+    <string name="cancel">キャンセル</string>
+    <string name="silent">Silent</string>
+    <string name="normal">Normal</string>
+    <string name="everyday">毎日</string>
+    <string name="weekday">平日</string>
+    <string name="weekend">週末</string>
+    <string name="monday">月曜日</string>
+    <string name="tuesday">火曜日</string>
+    <string name="wednesday">水曜日</string>
+    <string name="thursday">木曜日</string>
+    <string name="friday">金曜日</string>
+    <string name="saturday">土曜日</string>
+    <string name="sunday">日曜日</string>
+	<string name="please_add">メニューを開いてスケジュールを追加してください。</string>
+	<string name="how_to_delete">ゴミ箱アイコンの長押しで削除できます。</string>
+	<string name="set_silent_mode">マナーモードを設定しました</string>
+	<string name="set_normal_mode">マナーモードを解除しました</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dip"
+    android:baselineAligned="false" >
+
+    <TextView
+        android:id="@+id/dayLabel"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="30"
+        android:text="Mon-Fri"
+        android:textSize="24dip" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/timeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="00:00 AM"
+        android:textSize="24dip" >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/silentIcon"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="20"
+        android:src="@android:drawable/ic_lock_silent_mode" >
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/trashIcon"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="20"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/trashCan"
+        android:src="@android:drawable/ic_menu_delete" >
+
+    </ImageView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="enabled">Enabled</string>
+	<string name="app_name">Silent Scheduler</string>
+	<string name="add">Add</string>
+	<string name="delete">Delete</string>
+	<string name="cancel">Cancel</string>
+	<string name="silent">Silent</string>
+	<string name="normal">Normal</string>
+	<string name="everyday">EVRY</string>
+	<string name="weekday">Mon-Fri</string>
+	<string name="weekend">Weekend</string>
+	<string name="monday">Mon</string>
+	<string name="tuesday">Tue</string>
+	<string name="wednesday">Wed</string>
+	<string name="thursday">Thu</string>
+	<string name="friday">Fri</string>
+	<string name="saturday">Sat</string>
+	<string name="sunday">Sun</string>
+	<string name="please_add">Please open menu to add a schedule.</string>
+	<string name="how_to_delete">It can be deleted by long press on trash box.</string>
+	<string name="trashCan">trash can</string>
+	<string name="set_silent_mode">Set silent mode.</string>
+	<string name="set_normal_mode">Set normal mode.</string>
+</resources>
