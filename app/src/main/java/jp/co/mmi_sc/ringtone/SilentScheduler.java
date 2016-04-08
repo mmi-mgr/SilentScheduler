@@ -21,8 +21,6 @@ import android.widget.Toast;
  * 
  */
 public class SilentScheduler extends ListActivity {
-    /** TOASTを表示する時間。 */
-    private static final int TOAST_DURATION = 8000;
 
     private SQLiteDatabase mDb;
     private Cursor mCursor;
@@ -61,7 +59,7 @@ public class SilentScheduler extends ListActivity {
         mCursor.requery();
 
         if (mAdapter.getCount() == 0) {
-            Toast.makeText(this, R.string.please_add, TOAST_DURATION).show();
+            Toast.makeText(this, R.string.please_add, Toast.LENGTH_LONG).show();
         }
     }
 
@@ -88,7 +86,7 @@ public class SilentScheduler extends ListActivity {
             mCursor.requery();
             InitializeReceiver.restartSchedule(getApplicationContext());
             if (mAdapter.getCount() == 1) {
-                Toast.makeText(getApplicationContext(), R.string.how_to_delete, TOAST_DURATION).show();
+                Toast.makeText(getApplicationContext(), R.string.how_to_delete, Toast.LENGTH_LONG).show();
             }
             break;
         case R.id.cancel:

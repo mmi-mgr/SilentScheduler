@@ -9,7 +9,6 @@ import android.widget.Toast;
 
 public class ScheduleReceiver extends BroadcastReceiver {
     private static final String TAG = "InitializeReceiver";
-    private static final int TOAST_DURATION = 5000;
 
     @Override
     public void onReceive(final Context context, final Intent intent) {
@@ -18,7 +17,7 @@ public class ScheduleReceiver extends BroadcastReceiver {
         AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
         am.setRingerMode(silent ? AudioManager.RINGER_MODE_SILENT : AudioManager.RINGER_MODE_NORMAL);
         //String msg = silent ? R.string.set_silent_mode : R.string.set_normal_mode;
-        Toast.makeText(context, "Set " + (silent ? "silent" : "normal") + " mode.", TOAST_DURATION).show();
+        Toast.makeText(context, "Set " + (silent ? "silent" : "normal") + " mode.", Toast.LENGTH_LONG).show();
         InitializeReceiver.restartSchedule(context);
     }
 
